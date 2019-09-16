@@ -1,0 +1,30 @@
+:root{
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainWhite:#f3f3f3;
+  --meanDark:#232528;
+  --meanyellow:#fde400;
+  --meanDblue:#0098fda1;
+  
+
+
+}
+body{
+  font-family: 'Anton', sans-serif !important; 
+background: var(--meanDblue) !important;
+color: var(--meanDark) !important;
+
+}
+.text-title{
+  font-family: 'Slabo 27px', serif;
+letter-spacing: 0.3rem;
+text-transform: uppercase;
+
+}
+.text-bleu{
+  color: var(--mainBlue);
+}
+.text-bright{
+  color: var(--lightBlue);
+  
+}
